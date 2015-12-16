@@ -7,7 +7,53 @@
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="shortcut icon" href="TemplateData/favicon.ico" />
     <script src="TemplateData/UnityProgress.js"></script>
+		  <style>
+        #body
+        {
+            background-color:gray;
+        }
+        #header 
+        {
+            border: 2px solid black;
+            margin-bottom:5px;
+            background-color:gray;
+            color:black;
+            text-align:center;
+            padding:10px;
+        }
+		#Section
+		{
+		    border: 2px solid black;
+			margin-left:150px;
+			margin-right:150px;
+			margin-bottom: 5px;
+			background-color:gray;
+			color:black;
+			text-align:center;
+            padding:10px;
+		}
+		#BreakDown
+		{
+			margin-left:150px;
+			margin-bottom: 5px;
+			margin-right:150px;
+			background-color:white;
+			color:black;
+			text-align:left;
+            padding:10px;
+		}
+		#Game
+		{
+			margin-bottom: 5px;
+			background-color:white;
+            padding:350px;
+		}
+    </style>
   </head>
+  <div id = "header">
+  <h1><font size = "12px"> BOIDS Simulation </font></h1>
+  </div>
+  <div id = "Game">
   <body class="template">
     <p class="header"><span>Unity WebGL Player | </span>BoidsNew Unity Project</p>
     <div class="template-wrap clear">
@@ -101,5 +147,11 @@ try {
   codeXHR.send(null);
 }
 </script>
-  </body>
+	</div>
+	<div id = "Section">
+	<h2><font size = "8px"> How To Play </font></h2>
+	</div>
+	<div id = "BreakDown">
+	<p><font size = "4px">  </font></p>
+ </body>
 </html>
